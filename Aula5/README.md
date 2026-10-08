@@ -8,6 +8,7 @@ função como expressão, valores por omissão e argumentos nomeados.
 | `funcoes_basicas.kt` | Definir e chamar; retorno; função = expressão; `Unit` |
 | `funcoes_parametros.kt` | Valores por omissão e argumentos nomeados |
 | `funcoes_texto.kt` | Funções sobre `Char` e `String`, com leitura na `main` |
+| `funcoes_intervalos.kt` | `IntRange` e `CharRange` como parâmetros, com valor por omissão |
 
 ## Como correr
 Compilar com `kotlinc` e depois executar com `kotlin`. O nome da classe é o do
@@ -22,6 +23,9 @@ kotlin Funcoes_parametrosKt
 
 kotlinc funcoes_texto.kt
 kotlin Funcoes_textoKt
+
+kotlinc funcoes_intervalos.kt
+kotlin Funcoes_intervalosKt
 ```
 
 O `funcoes_texto.kt` pede uma palavra: escrever e carregar em Enter.
