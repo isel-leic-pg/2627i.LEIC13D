@@ -4,7 +4,7 @@ Exemplos para acompanhar a Aula 3: texto, valores lógicos, intervalos e leitura
 
 | Ficheiro | Demonstra |
 |---|---|
-| `texto.kt` | `String`, templates `$`, operações de texto, `Char`, raw strings |
+| `texto.kt` | `String`, templates `$`, operações de texto, `Char` (`isUpperCase`, `isLowerCase`, `isDigit`, `isLetter`), raw strings |
 | `logica.kt` | `Boolean`, `&&` `\|\|` `!`, comparações e `in` |
 | `io.kt` | `readln()` + `toInt()`/`toDouble()` com templates |
 

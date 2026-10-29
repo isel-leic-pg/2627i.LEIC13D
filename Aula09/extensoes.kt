@@ -1,6 +1,6 @@
 // Programação (PG) — Aula 9: Funções extensão e listas
 // Demonstra: funções extensão de tipos simples (Int, Char, String), o recetor e o this,
-//            e a comparação com uma função normal.
+//            a comparação com uma função normal e extensões da biblioteca (isUpperCase, isDigit).
 // Correr:  kotlinc extensoes.kt   e depois   kotlin ExtensoesKt
 
 // Função normal: o valor é um parâmetro.
@@ -40,4 +40,8 @@ fun main(){
 	// Também funciona com variáveis e com o resultado de outras funções.
 	val n = 6
 	println(n.square().isEven())       // true (36 é par)
+
+	// A biblioteca tem muitas extensões destas, por exemplo de Char:
+	println('f'.isUpperCase())         // false
+	println('7'.isDigit())             // true
 }

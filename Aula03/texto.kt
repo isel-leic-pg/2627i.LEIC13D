@@ -1,5 +1,5 @@
 // Programação (PG) — Aula 3: Texto, lógica e I/O
-// Demonstra: String, templates ($), operações com texto, Char e raw strings.
+// Demonstra: String, templates ($), operações com texto, Char (isUpperCase, isDigit, ...) e raw strings.
 // Correr:  kotlinc texto.kt   e depois   kotlin TextoKt
 
 fun main(){
@@ -17,6 +17,12 @@ fun main(){
 	// Um Char tem um código Unicode:
 	val letra = 'A'
 	println(letra.code)         // 65
+
+	// Perguntas sobre um Char: devolvem um Boolean.
+	println('f'.isUpperCase())  // false
+	println('f'.isLowerCase())  // true
+	println('7'.isDigit())      // true
+	println('é'.isLetter())     // true  (uma letra acentuada também é letra)
 
 	// Raw string (entre """ """): escreve tal e qual, em várias linhas.
 	val bloco = """

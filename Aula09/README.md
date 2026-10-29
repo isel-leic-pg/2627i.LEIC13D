@@ -5,7 +5,7 @@ o recetor e o `this`, e a nossa `filter` e a nossa `map` escritas como extensõe
 
 | Ficheiro | Demonstra |
 |---|---|
-| `extensoes.kt` | Função normal vs função extensão; extensões de `Int`, `Char` e `String`; `this` explícito e omitido |
+| `extensoes.kt` | Função normal vs função extensão; extensões de `Int`, `Char` e `String`; `this` explícito e omitido; extensões da biblioteca (`isUpperCase`, `isDigit`) |
 | `filter_map.kt` | `filter` e `map` como extensões de `List<Int>`; qual é chamada quando o nome é igual ao da biblioteca |
 | `exercicios_extensoes.kt` | Exercícios para completar (marcados com `TODO`): 6 exercícios e 4 extra (fatorial, potência, divisores, contar palavras); o `main` mostra o esperado e o obtido |
 
