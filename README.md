@@ -3,5 +3,5 @@ Código realizado nas aulas da turma LEIC13D de PG no semestre 2026/2027 Inverno
 
 ## Organização
 
-O código está organizado por aula, uma pasta por aula: `Aula1/`, `Aula2/`, …
+O código está organizado por aula, uma pasta por aula: `Aula01/`, `Aula02/`, …
 A partir do uso do IntelliJ, cada tema/trabalho fica num projeto Kotlin próprio.
