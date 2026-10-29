@@ -6,10 +6,10 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 400
-val HEIGHT = 300
-val STAMP = 15          // raio do carimbo do clique
-val BRUSH = 3           // raio do pincel
+const val WIDTH = 400
+const val HEIGHT = 300
+const val STAMP = 15    // raio do carimbo do clique
+const val BRUSH = 3     // raio do pincel
 
 fun main(){
 	onStart {

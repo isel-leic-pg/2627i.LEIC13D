@@ -6,23 +6,23 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 400                           // largura da área de desenho
-val HEIGHT = 300                          // altura da área de desenho
-val GROUND = 250                          // y do chão: daqui para baixo é relva
-val HOUSE_WIDTH = 160
-val HOUSE_HEIGHT = 100
-val HOUSE_X = (WIDTH - HOUSE_WIDTH) / 2   // canto superior esquerdo das paredes: a casa fica ao centro...
-val HOUSE_Y = GROUND - HOUSE_HEIGHT       // ... e assente no chão
-val ROOF_HEIGHT = 60
-val WINDOW_SIDE = 30
-val DOOR_WIDTH = 36
-val DOOR_HEIGHT = 60
+const val WIDTH = 400                          // largura da área de desenho
+const val HEIGHT = 300                         // altura da área de desenho
+const val GROUND = 250                         // y do chão: daqui para baixo é relva
+const val HOUSE_WIDTH = 160
+const val HOUSE_HEIGHT = 100
+const val HOUSE_X = (WIDTH - HOUSE_WIDTH) / 2  // canto superior esquerdo das paredes: a casa fica ao centro...
+const val HOUSE_Y = GROUND - HOUSE_HEIGHT      // ... e assente no chão
+const val ROOF_HEIGHT = 60
+const val WINDOW_SIDE = 30
+const val DOOR_WIDTH = 36
+const val DOOR_HEIGHT = 60
 
 // Uma cor é um Int: as que não são constantes da biblioteca escrevem-se em 0xRRGGBB.
-val WALL = 0xF4E1C1
-val GLASS = 0xBDEFFF
-val WOOD = 0x8B4513
-val ORANGE = 0xF88909
+const val WALL = 0xF4E1C1
+const val GLASS = 0xBDEFFF
+const val WOOD = 0x8B4513
+const val ORANGE = 0xF88909
 
 // Uma janela com o canto superior esquerdo em (x, y): o vidro, o caixilho e a cruz ao meio.
 fun Canvas.drawWindow(x: Int, y: Int) {

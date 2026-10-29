@@ -7,11 +7,11 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 480
-val HEIGHT = 300
-val FACE = "face"            // o nome do ficheiro: sem extensão, assume-se .png
-val FACE_SIZE = 64           // o ficheiro tem 64 × 64 pixels
-val MARGIN = 10
+const val WIDTH = 480
+const val HEIGHT = 300
+const val FACE = "face"      // o nome do ficheiro: sem extensão, assume-se .png
+const val FACE_SIZE = 64     // o ficheiro tem 64 × 64 pixels
+const val MARGIN = 10
 
 fun main(){
 	onStart {

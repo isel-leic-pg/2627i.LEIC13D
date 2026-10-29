@@ -6,8 +6,8 @@
 //        filter e map só no exercício 8, onde se pedem. Os exercícios 9 e 10 são extra.
 // Correr:  kotlinc exercicios_data_class.kt   e depois   kotlin Exercicios_data_classKt
 
-val MINUTES_PER_HOUR = 60
-val MINUTES_PER_DAY = 24 * MINUTES_PER_HOUR
+const val MINUTES_PER_HOUR = 60
+const val MINUTES_PER_DAY = 24 * MINUTES_PER_HOUR
 
 // Uma hora do dia, de 00:00 a 23:59.
 data class Time(val hours: Int, val minutes: Int)

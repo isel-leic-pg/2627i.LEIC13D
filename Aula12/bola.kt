@@ -6,11 +6,11 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 600
-val HEIGHT = 300
-val SPEED = 4                 // píxeis por imagem
-val PERIOD = 20               // ms entre imagens: 50 por segundo
-val STEP = 5                  // variação do raio a cada tecla
+const val WIDTH = 600
+const val HEIGHT = 300
+const val SPEED = 4           // píxeis por imagem
+const val PERIOD = 20         // ms entre imagens: 50 por segundo
+const val STEP = 5            // variação do raio a cada tecla
 val RADIUS_RANGE = 10..100    // raios possíveis
 
 data class Ball(val x: Int, val y: Int, val dx: Int, val radius: Int)

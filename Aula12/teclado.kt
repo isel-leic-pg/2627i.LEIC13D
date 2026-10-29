@@ -5,10 +5,10 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 400
-val HEIGHT = 300
-val SIDE = 40           // lado do quadrado
-val STEP = 20           // píxeis por tecla
+const val WIDTH = 400
+const val HEIGHT = 300
+const val SIDE = 40     // lado do quadrado
+const val STEP = 20     // píxeis por tecla
 
 data class Square(val x: Int, val y: Int, val color: Int)
 

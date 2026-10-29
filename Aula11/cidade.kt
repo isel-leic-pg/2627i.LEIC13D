@@ -6,17 +6,17 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 500
-val HEIGHT = 300
-val GROUND = 270             // y da rua: os prédios assentam aqui
-val WINDOW = 10              // lado de cada janela
-val GAP = 10                 // espaço entre janelas e entre as janelas e as paredes
-val TALL = 150               // os prédios mais altos do que isto têm antena
-val ANTENNA = 30             // altura da antena
-val SKY = 0x1A1033
-val MOON = 0xFFF6C8
-val LIGHT = 0xF9D56E         // cor das janelas acesas
-val ROAD = 0x333333
+const val WIDTH = 500
+const val HEIGHT = 300
+const val GROUND = 270       // y da rua: os prédios assentam aqui
+const val WINDOW = 10        // lado de cada janela
+const val GAP = 10           // espaço entre janelas e entre as janelas e as paredes
+const val TALL = 150         // os prédios mais altos do que isto têm antena
+const val ANTENNA = 30       // altura da antena
+const val SKY = 0x1A1033
+const val MOON = 0xFFF6C8
+const val LIGHT = 0xF9D56E   // cor das janelas acesas
+const val ROAD = 0x333333
 
 // Um prédio: o x da parede da esquerda, a largura, a altura e a cor.
 data class Building(val x: Int, val width: Int, val height: Int, val color: Int)

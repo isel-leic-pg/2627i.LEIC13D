@@ -5,15 +5,15 @@
 
 import pt.isel.canvas.*
 
-val WIDTH = 400
-val HEIGHT = 200
-val DURATION = 5000         // ms até a barra ficar cheia
-val PERIOD = 50             // ms entre imagens: 1000 / 50 = 20 imagens por segundo
-val MARGIN = 20             // distância da barra às paredes da esquerda e da direita
-val BAR_Y = 80
-val BAR_WIDTH = WIDTH - 2 * MARGIN
-val BAR_HEIGHT = 40
-val POINTER = 5             // raio do ponto que mostra o rato
+const val WIDTH = 400
+const val HEIGHT = 200
+const val DURATION = 5000   // ms até a barra ficar cheia
+const val PERIOD = 50       // ms entre imagens: 1000 / 50 = 20 imagens por segundo
+const val MARGIN = 20       // distância da barra às paredes da esquerda e da direita
+const val BAR_Y = 80
+const val BAR_WIDTH = WIDTH - 2 * MARGIN
+const val BAR_HEIGHT = 40
+const val POINTER = 5       // raio do ponto que mostra o rato
 
 // A barra preenchida até length píxeis, com o contorno da barra cheia.
 fun Canvas.drawBar(length: Int, color: Int) {

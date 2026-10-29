@@ -6,12 +6,12 @@
 import pt.isel.canvas.*
 
 val COLORS = listOf(BLACK, WHITE, RED, GREEN, BLUE, YELLOW, CYAN, MAGENTA)
-val STEPS = 16                         // retângulos em cada degradê
-val STRIP = 32                         // largura de cada retângulo do degradê
-val ROW = 60                           // altura de cada fila
-val GAP = 10                           // espaço entre filas
-val WIDTH = STEPS * STRIP              // 512
-val HEIGHT = 5 * ROW + 4 * GAP         // 5 filas: 340
+const val STEPS = 16                   // retângulos em cada degradê
+const val STRIP = 32                   // largura de cada retângulo do degradê
+const val ROW = 60                     // altura de cada fila
+const val GAP = 10                     // espaço entre filas
+const val WIDTH = STEPS * STRIP        // 512
+const val HEIGHT = 5 * ROW + 4 * GAP   // 5 filas: 340
 
 // O y da fila n (a primeira é a fila 0).
 fun rowY(n: Int) = n * (ROW + GAP)
